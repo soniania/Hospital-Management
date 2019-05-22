@@ -7,7 +7,7 @@ public class StudentDoctor {
     public StudentDoctor() {
     }
 
-    public StudentDoctor(Builder builder) {
+   /** public StudentDoctor(Builder builder) {
 
         super(doctorId, speciality, doctorFirstName, doctorLastName);
 
@@ -28,7 +28,7 @@ public class StudentDoctor {
 
         public StudentDoctor build() { return new StudentDoctor(this);}
 
-    }
+    }**/
 
 
 }

@@ -55,7 +55,8 @@ public class PatientRecord {
             return this;
         }
 
-        public PatientRecord build(){return new PatientRecord();}
+        public PatientRecord build(){
+            return new PatientRecord();}
     }
 
     @Override

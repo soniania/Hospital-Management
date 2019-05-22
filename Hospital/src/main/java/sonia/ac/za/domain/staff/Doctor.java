@@ -60,7 +60,7 @@ public class Doctor {
 
     @Override
     public String toString() {
-        return "Doctor{" +
+        return "DoctorService{" +
                 " DoctorId='" + doctorId + '\'' +
                 ",DoctorFirstName='" + doctorFirstName + '\'' +
                 ", DoctorLastName='" + doctorLastname + '\'' +

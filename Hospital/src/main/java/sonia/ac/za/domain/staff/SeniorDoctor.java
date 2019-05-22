@@ -7,7 +7,7 @@ public class SeniorDoctor extends Doctor {
     public SeniorDoctor() {
     }
 
-    public SeniorDoctor(Builder builder) {
+    /**public SeniorDoctor(Builder builder) {
 
         super(doctorId, speciality, doctorFirstName, doctorLastname);
 
@@ -28,7 +28,7 @@ public class SeniorDoctor extends Doctor {
 
         public SeniorDoctor build() { return new SeniorDoctor(this);}
 
-    }
+    }**/
 
 
 }

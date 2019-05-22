@@ -31,7 +31,10 @@ public class Patient {
         return patientAge;
     }
 
-    public int getPatientContact(){ return patientContact; }
+    public int getPatientContact()
+    {
+        return patientContact;
+    }
 
     public static class Builder {
 
